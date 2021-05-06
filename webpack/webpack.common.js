@@ -175,12 +175,6 @@ module.exports = ({ DEV = false, TARGET = 'localhost', AUTOFIX = false }) => ({
                 // Read the docs https://webpack.js.org/plugins/copy-webpack-plugin/
                 { from: 'app/robots.txt', to: './' },
             ]
-        }),
-        new StylelintPlugin({
-            files: path.resolve(__dirname, '..') + 'app/**/*.s?(a|c)ss',
-            fix: AUTOFIX,
-            lintDirtyModulesOnly: true,
-            quiet: true
         })
     ],
     resolve: {

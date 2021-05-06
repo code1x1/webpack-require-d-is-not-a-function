@@ -29,7 +29,7 @@ module.exports = merge(common({ DEV: true, TARGET: 'localhost' }), {
             'localhost',
             'localhost:3000'
         ],
-        contentBase: path.resolve(__dirname, '..', './dist'),
+        // contentBase: path.resolve(__dirname, '..', './dist'),
         host: '0.0.0.0',
         public: 'http://localhost:3000',
         port: 3000
