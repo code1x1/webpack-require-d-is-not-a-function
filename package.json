@@ -6,7 +6,9 @@
     "start": "webpack serve --progress --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "angular": "^1.8.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
