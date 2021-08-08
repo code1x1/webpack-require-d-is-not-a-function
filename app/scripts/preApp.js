@@ -1,1 +1,2 @@
-console.log('preApp')
+import _ from 'lodash'
+console.log('preApp' + _.kebabCase('testCamel'))

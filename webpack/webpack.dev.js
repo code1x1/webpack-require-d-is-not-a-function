@@ -17,9 +17,9 @@ module.exports = merge(common({ DEV: true, TARGET: 'localhost' }), {
         },
     },
     devServer: {
-        open: false,
+        open: true,
         hot: false,
-        inline: false,
+        inline: true,
         onListening: (server) => {
             console.log('Listening on address:', server.listeningApp.address());
         },
